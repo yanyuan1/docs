@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+echo 'node_modules' >> .gitignore
+echo '.temp' >> .gitignore
+echo '.cache' >> .gitignore
