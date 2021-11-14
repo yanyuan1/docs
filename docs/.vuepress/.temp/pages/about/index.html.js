@@ -10,8 +10,14 @@ export const data = {
   "headers": [],
   "filePathRelative": "about/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1636870416000,
+    "contributors": [
+      {
+        "name": "make",
+        "email": "1183461339@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 
