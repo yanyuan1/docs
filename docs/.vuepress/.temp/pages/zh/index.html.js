@@ -1,8 +1,8 @@
 export const data = {
-  "key": "v-8daa1a0e",
-  "path": "/",
+  "key": "v-2d0ad528",
+  "path": "/zh/",
   "title": "",
-  "lang": "en-US",
+  "lang": "zh-CN",
   "frontmatter": {
     "home": true,
     "heroImage": "/images/logo.png",
@@ -10,7 +10,7 @@ export const data = {
     "actionLink": "/zh/guide/",
     "features": [
       {
-        "title": "简洁至上",
+        "title": "简洁至上 我是中文",
         "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
       },
       {
@@ -26,16 +26,10 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "README.md",
+  "filePathRelative": "zh/README.md",
   "git": {
-    "updatedTime": 1636870416000,
-    "contributors": [
-      {
-        "name": "make",
-        "email": "1183461339@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

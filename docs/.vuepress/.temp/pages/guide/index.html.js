@@ -1,31 +1,31 @@
 export const data = {
-  "key": "v-74bc627b",
-  "path": "/about/",
-  "title": "redis启动",
+  "key": "v-fffb8e28",
+  "path": "/guide/",
+  "title": "guide",
   "lang": "en-US",
   "frontmatter": {
-    "title": "redis启动",
-    "sidebar": false,
-    "date": "2017-12-28T00:00:00.000Z",
+    "title": "guide",
+    "date": "2019-08-08 08:00:00",
+    "sidebar": "auto",
     "categories": [
-      "frontEnd"
+      "烹饪",
+      "爱好"
     ],
     "tags": [
-      "vue"
-    ]
+      "烤",
+      "鸭子"
+    ],
+    "keys": [
+      "123456"
+    ],
+    "publish": false
   },
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "about/README.md",
+  "filePathRelative": "guide/README.md",
   "git": {
-    "updatedTime": 1636870416000,
-    "contributors": [
-      {
-        "name": "make",
-        "email": "1183461339@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

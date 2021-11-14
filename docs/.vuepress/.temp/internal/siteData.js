@@ -4,7 +4,20 @@ export const siteData = {
   "title": "",
   "description": "",
   "head": [],
-  "locales": {}
+  "locales": {
+    "/": {
+      "lang": "en-US",
+      "title": "yang  Blog ",
+      "description": "this is my first blog site",
+      "data": "2021-11-14"
+    },
+    "/zh/": {
+      "lang": "zh-CN",
+      "title": "杨远的Blog ",
+      "description": "这是我的第一个博客 站点",
+      "data": "2021-11-14"
+    }
+  }
 }
 
 if (import.meta.webpackHot) {

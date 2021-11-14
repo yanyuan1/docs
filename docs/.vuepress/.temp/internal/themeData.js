@@ -16,22 +16,28 @@ export const themeData = {
           "link": "/food"
         }
       ]
+    },
+    {
+      "text": "TimeLine",
+      "link": "/timeline/",
+      "icon": "rec-date"
     }
   ],
-  "logo": "/assets/img/logo.png",
+  "logo": "images/logo.png",
   "sidebar": [
-    "/",
-    "/page-a",
+    "about",
+    "food",
     [
       "/page-b",
       "Explicit link text"
     ]
   ],
-  "search": false,
-  "searchMaxSuggestions": 10,
   "locales": {
     "/": {
       "selectLanguageName": "English"
+    },
+    "/zh/": {
+      "selectLanguageName": "简体中文"
     }
   },
   "darkMode": true,

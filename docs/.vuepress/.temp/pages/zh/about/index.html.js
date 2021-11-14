@@ -1,11 +1,10 @@
 export const data = {
-  "key": "v-74bc627b",
-  "path": "/about/",
-  "title": "redis启动",
-  "lang": "en-US",
+  "key": "v-3befa56a",
+  "path": "/zh/about/",
+  "title": "【vue】跨域解决方案之proxyTable 中文",
+  "lang": "zh-CN",
   "frontmatter": {
-    "title": "redis启动",
-    "sidebar": false,
+    "title": "【vue】跨域解决方案之proxyTable 中文",
     "date": "2017-12-28T00:00:00.000Z",
     "categories": [
       "frontEnd"
@@ -16,16 +15,10 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "about/README.md",
+  "filePathRelative": "zh/about/README.md",
   "git": {
-    "updatedTime": 1636870416000,
-    "contributors": [
-      {
-        "name": "make",
-        "email": "1183461339@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

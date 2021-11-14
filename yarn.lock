@@ -546,7 +546,7 @@
     "markdown-it-emoji" "^2.0.0"
     "mdurl" "^1.0.1"
 
-"@vuepress/plugin-active-header-links@2.0.0-beta.27":
+"@vuepress/plugin-active-header-links@^2.0.0-beta.27", "@vuepress/plugin-active-header-links@2.0.0-beta.27":
   "integrity" "sha512-7lHM6DMplk+MQMTR2XTVQOPlwTvXORmhV4ogvpWraqAADqh6+nXe1eMZYci5rufp/JKzNXtCQ1nSD7BCBI12DQ=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-active-header-links/-/plugin-active-header-links-2.0.0-beta.27.tgz"
   "version" "2.0.0-beta.27"
@@ -558,7 +558,7 @@
     "vue" "^3.2.20"
     "vue-router" "^4.0.12"
 
-"@vuepress/plugin-back-to-top@2.0.0-beta.27":
+"@vuepress/plugin-back-to-top@^2.0.0-beta.27", "@vuepress/plugin-back-to-top@2.0.0-beta.27":
   "integrity" "sha512-pO2TRNWRDt+yoOk1Vdg0i9SVIoa+JgSns5bYNxwAk72L9p15Vj4QKBTmqu6HkyRnug1oqFocvU1AgjxRz61mog=="
   "resolved" "https://registry.npmjs.org/@vuepress/plugin-back-to-top/-/plugin-back-to-top-2.0.0-beta.27.tgz"
   "version" "2.0.0-beta.27"

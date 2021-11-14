@@ -1,9 +1,30 @@
 module.exports = {
 
+    locales: {
+        // 键名是该语言所属的子路径
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'en-US',
+            title: 'yang  Blog ',
+            description: 'this is my first blog site',
+            data:'2021-11-14',
+        },
+        '/zh/': {
+            lang: 'zh-CN',
+            title: '杨远的Blog ',
+            description: '这是我的第一个博客 站点',
+            data:'2021-11-14',
+        },
+    },
+
     plugins: [
         [
             '@vuepress/plugin-search',
             {
+                //排除首页搜索
+                isSearchable: (page) => page.path !== '/',
+                // 允许搜索 Frontmatter 中的 `tags`
+                getExtraFields: (page) => page.frontmatter.tags ?? [],
                 locales: {
                     '/': {
                         placeholder: 'Search',
@@ -18,6 +39,7 @@ module.exports = {
 
 
     themeConfig: {
+
         navbar: [
             // NavbarItem
             {
@@ -31,18 +53,25 @@ module.exports = {
                     {text:'food',link: '/food'}],
             },
 
-
-
+            { text: 'TimeLine', link: '/timeline/', icon: 'rec-date' }
 
         ],
-        logo: '/assets/img/logo.png',
+        logo: 'images/logo.png',
         sidebar: [
-            '/',
-            '/page-a',
+            'about',
+            'food',
             ['/page-b', 'Explicit link text']
         ],
-        search: false,
-        searchMaxSuggestions: 10
+
+
+        locales: {
+            '/': {
+                selectLanguageName: 'English',
+            },
+            '/zh/': {
+                selectLanguageName: '简体中文',
+            },
+        },
 
     }
 
