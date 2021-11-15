@@ -5,7 +5,7 @@ export const themeData = {
       "link": "/"
     },
     {
-      "text": "about",
+      "text": "功能",
       "children": [
         {
           "text": "about",
@@ -14,6 +14,10 @@ export const themeData = {
         {
           "text": "food",
           "link": "/food"
+        },
+        {
+          "text": "make",
+          "link": "/make"
         }
       ]
     },

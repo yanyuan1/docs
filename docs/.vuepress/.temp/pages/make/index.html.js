@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-fffb8e28",
-  "path": "/guide/",
+  "key": "v-14f0b8a8",
+  "path": "/make/",
   "title": "guide",
   "lang": "en-US",
   "frontmatter": {
@@ -22,16 +22,10 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "guide/README.md",
+  "filePathRelative": "make/README.md",
   "git": {
-    "updatedTime": 1636915070000,
-    "contributors": [
-      {
-        "name": "make",
-        "email": "1183461339@qq.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

@@ -9,16 +9,6 @@ export const searchIndex = [
     ]
   },
   {
-    "title": "guide",
-    "headers": [],
-    "path": "/guide/",
-    "pathLocale": "/",
-    "extraFields": [
-      "烤",
-      "鸭子"
-    ]
-  },
-  {
     "title": "烤鸭的做法",
     "headers": [
       {
@@ -43,20 +33,21 @@ export const searchIndex = [
     ]
   },
   {
+    "title": "guide",
+    "headers": [],
+    "path": "/make/",
+    "pathLocale": "/",
+    "extraFields": [
+      "烤",
+      "鸭子"
+    ]
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/zh/",
     "pathLocale": "/zh/",
     "extraFields": []
-  },
-  {
-    "title": "【vue】跨域解决方案之proxyTable 中文",
-    "headers": [],
-    "path": "/zh/about/",
-    "pathLocale": "/zh/",
-    "extraFields": [
-      "vue"
-    ]
   },
   {
     "title": "烤鸭的做法 中文",
@@ -66,6 +57,15 @@ export const searchIndex = [
     "extraFields": [
       "烤",
       "鸭子"
+    ]
+  },
+  {
+    "title": "【vue】跨域解决方案之proxyTable 中文",
+    "headers": [],
+    "path": "/zh/about/",
+    "pathLocale": "/zh/",
+    "extraFields": [
+      "vue"
     ]
   },
   {

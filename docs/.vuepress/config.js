@@ -18,6 +18,7 @@ module.exports = {
     },
 
     plugins: [
+
         [
             '@vuepress/plugin-search',
             {
@@ -35,6 +36,28 @@ module.exports = {
                 },
             },
         ],
+
+        [
+            'vuepress-plugin-typescript',
+            {
+                tsLoaderOptions: {
+                    // ts-loader 的所有配置项
+
+                },
+            },
+        ],
+
+        [
+            'vuepress-plugin-zooming',
+            {
+                delay: 500,
+                options: {
+                    bgColor: 'black',
+                    zIndex: 10000,
+                },
+            },
+        ],
+
     ],
 
 
@@ -48,9 +71,11 @@ module.exports = {
             },
             // NavbarGroup
             {
-                text: 'about',
+                text: '功能',
                 children: [{text:'about' ,link:'/about' },
-                    {text:'food',link: '/food'}],
+                    {text:'food',link: '/food'},
+                    {text:'make',link: '/make'}
+                ],
             },
 
             { text: 'TimeLine', link: '/timeline/', icon: 'rec-date' }

@@ -24,8 +24,14 @@ export const data = {
   "headers": [],
   "filePathRelative": "zh/food/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1636915070000,
+    "contributors": [
+      {
+        "name": "make",
+        "email": "1183461339@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

@@ -38,12 +38,12 @@ export const data = {
   ],
   "filePathRelative": "food/README.md",
   "git": {
-    "updatedTime": 1636870416000,
+    "updatedTime": 1636915070000,
     "contributors": [
       {
         "name": "make",
         "email": "1183461339@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

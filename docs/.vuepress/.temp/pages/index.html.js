@@ -6,8 +6,18 @@ export const data = {
   "frontmatter": {
     "home": true,
     "heroImage": "/images/logo.png",
-    "actionText": "快速上手 →",
-    "actionLink": "/zh/guide/",
+    "actions": [
+      {
+        "text": "快速上手",
+        "link": "/zh/guide/getting-started.html",
+        "type": "primary"
+      },
+      {
+        "text": "项目简介",
+        "link": "/guide/",
+        "type": "secondary"
+      }
+    ],
     "features": [
       {
         "title": "简洁至上",
@@ -20,6 +30,10 @@ export const data = {
       {
         "title": "高性能",
         "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+      },
+      {
+        "title": "不知道的新性能",
+        "details": "同时在页面被加载的时候，将作为 SPA 运行。"
       }
     ],
     "footer": "浙ICP备2021028057号-1"
@@ -28,12 +42,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1636870416000,
+    "updatedTime": 1636915070000,
     "contributors": [
       {
         "name": "make",
         "email": "1183461339@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }
